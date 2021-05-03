@@ -1,9 +1,9 @@
 /*------------공통 태그-------------*/
 
 body {
-    width: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    width: 100%;
     text-align: left;
 }
 
@@ -23,17 +23,17 @@ a {
 }
 
 img {
+    margin: 0;
     max-width: 100%;
     height: auto;
-    margin: 0;
 }
 
 .container {
-    width: 100%;
     padding-left: 40px;
     padding-right: 40px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -55,8 +55,8 @@ h3 {
 
 header {
     position: fixed;
-    text-align: center;
     width: 100%;
+    text-align: center;
 }
 
 .head-top {
@@ -73,27 +73,27 @@ header {
 }
 
 .gnb-wrapper {
-    text-align: center;
     height: 70px;
     background-color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .gnb-wrapper ul {
     display: inline-block;
-    list-style: none;
     padding: 0;
     margin-top: 20px;
     margin-bottom: 15px;
+    list-style: none;
 }
 
 .gnb-wrapper li {
-    float: left;
     padding: 0 70px;
+    float: left;
 }
 
 .gnb-wrapper li a {
-    color: #fff;
     font-size: 2vw;
+    color: #fff;
 }
 
 /*------------MAIN-------------*/
@@ -110,7 +110,6 @@ header {
 .benefit {
     display: flex;
     text-align: center;
-    align-items: center;
 }
 
 .comfort {
@@ -120,6 +119,7 @@ header {
 .fit {
     background-color: gold;
 }
+
 .productive {
     background-color: khaki;
 }
