@@ -73,7 +73,7 @@ header {
 }
 
 .gnb-wrapper {
-    height: 70px;
+    height: auto;
     background-color: rgb(0, 0, 0);
     text-align: center;
 }
@@ -81,8 +81,7 @@ header {
 .gnb-wrapper ul {
     display: inline-block;
     padding: 0;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin: 20px;
     list-style: none;
 }
 
@@ -98,8 +97,11 @@ header {
 
 /*------------MAIN-------------*/
 
-.intro-section {
+main {
     padding-top: 150px;
+}
+
+.intro-section {
     margin-bottom: 50px;
 }
 
@@ -130,4 +132,24 @@ header {
 
 .copyright {
     text-align: center;
+}
+
+/*------------Responsive-------------*/
+@media screen and (max-width: 800px) {
+    .gnb-wrapper {
+        height: auto;
+    }
+
+    .gnb-wrapper ul {
+        padding: 0;
+        margin: 10px 0px;
+    }
+
+    .gnb-wrapper li {
+        padding: 5px 0 0;
+        float: initial;
+    }
+    main {
+        padding-top: 150px;
+    }
 }
