@@ -1,0 +1,36 @@
+/*------------Responsive-------------*/
+.head-top,
+.copyright p {
+    font-size: 0.5em;
+}
+
+.gnb-wrapper {
+    height: auto;
+}
+
+.gnb-wrapper ul {
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.gnb-wrapper li {
+    padding: 5px 0 0;
+    float: initial;
+}
+
+main {
+    padding-top: 200px;
+}
+
+.intro-section,
+.benefit-section {
+    text-align: center;
+}
+
+.benefit {
+    flex-direction: column;
+}
+
+.benefit img {
+    max-width: 50%;
+}
